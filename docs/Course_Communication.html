@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Andreas Handel" />
+
+<meta name="date" content="2020-08-06" />
+
+<title>Course Communications</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="icon" type="image/png" href="media/IDEMAlogo.png" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="IDEMACourse.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">IDEMA Course</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    General Information
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./Course_Syllabus.html">Syllabus</a>
+    </li>
+    <li>
+      <a href="./Course_Schedule.html">Schedule</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Modules
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">1. Course, Tools and Topic Introduction</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="./Course_Introduction.html">1a. Course introduction</a>
+        </li>
+        <li>
+          <a href="./Teaching_and_Learning.html">1b. Teaching and Learning thoughts</a>
+        </li>
+        <li>
+          <a href="./R_and_RStudio.html">1c. R and Rstudio</a>
+        </li>
+        <li>
+          <a href="./DSAIDE.html">1d. DSAIDE</a>
+        </li>
+        <li>
+          <a href="./Further_Tools.html">1e. Further Tools</a>
+        </li>
+        <li>
+          <a href="./ID_Dynamics_Introduction.html">1f. Topic introduction</a>
+        </li>
+        <li>
+          <a href="./1_Exercises.html">1g. Exercises</a>
+        </li>
+        <li>
+          <a href="./1_Assessments.html">1h. Assessments</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Project
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./Project_Information.html">Project information</a>
+    </li>
+    <li>
+      <a href="./Project_Rubric.html">Project rubric</a>
+    </li>
+    <li>
+      <a href="./Project_Review.html">Project review</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="./Course_Communication.html">Communication</a>
+</li>
+<li>
+  <a href="./Course_Glossary.html">Glossary</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./Course_Resources.html">Course Resources</a>
+    </li>
+    <li>
+      <a href="./General_Resources.html">General Resources</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/andreashandel/IDEMAcourse">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Course Communications</h1>
+<h4 class="author">Andreas Handel</h4>
+<h4 class="date">2020-08-06</h4>
+
+</div>
+
+
+<div id="asynchronous-communication" class="section level1">
+<h1>Asynchronous communication</h1>
+<p>The main mode of communication will be through Slack. You should get an email invite to the Slack workspace for this class. It will go to your official UGA email and you need to use that email to sign up. If you haven’t received an email by August 20, or if you added the class late, let me know so I can send you an invite. We won’t use eLC, everything is going to happen on Slack or this website.</p>
+<p>If you are unfamiliar with Slack, it is essentially a chat/discussion tool. The main area for the class is called a <em>workspace</em> in Slack. Ours is called <em>IDEMA-Fall-2020</em>. If you use Slack for other purposes, you might have additional workspaces. Each of them is independent. Inside the workspace are <em>channels</em>. Each <em>channel</em> corresponds to a topic. The names and descriptions of the different channels should be self-explanatory. You need to be a member of a channel to be see and participate in the channel discussion. If a channel is public, you can see it and join by clicking on the + symbol next to channels and go to ‘browse channels’. Sometimes channels are private, then only those invited can participate.</p>
+<p>Inside a channel, you can write messages. To respond to someone’s message, you can type your message just below the previous one. The good thing with this is that everyone sees it easily. The bad thing is that if there are a good number of messages being typed, it can be hard to figure out which ones go together. An alternative, and maybe better way is to reply in a thread.</p>
+<p>You can also use Slack to send one or more individuals direct messages. You can use that to communicate with me or each other.</p>
+<p>Overall, Slack is fairly intuitive, and hopefully much easier to use than the rather clunky discussion feature of eLC. But some features might need getting used to. If you have not previous Slack experience, I suggest you browse through <a href="https://slack.com/resources/slack-101">their starter tutorials</a> to pick up a few more tips and tricks.</p>
+<p>I will use Slack to post any course related announcements. Check regularly. They will all be in the announcement channel.</p>
+<p>Use the Slack channels widely to ask questions, to answer others’ questions, to notify me and others of things that are unclear/wrong, to post links to interesting resources, etc. I hope we can use Slack to build a <em>community of learners</em> where you help and support each other. So please don’t always wait for me to answer questions or provide feedback! Engage with each other. I will regularly visit and read the discussions and participate, but I hope that I will end up as one participant of many, not the only person providing answers.</p>
+<p>I prefer that you use Slack instead of email to ask questions. The reason is that if you have a question, it is likely that others have it too. By asking and answering online, everyone can see it. That said, there might be instances where the question only relates to you. In such cases, feel free to either send me a direct message on Slack or email me.</p>
+</div>
+<div id="synchronous-communication" class="section level1">
+<h1>Synchronous communication</h1>
+<p>The current plan is to have some synchronous meetings through Zoom. Those are <strong>completely optional.</strong> Once a week I will start a Zoom meeting. Whoever wants to join can do so, and we will use the meeting for discussions, answering questions, and whatever else you want to talk about. Think of those meetings a bit like virtual office hours or virtual in-class discussions. To ensure everyone will be able to join at least occasionally, I plan to alternate between two times each week.</p>
+<p>Tentative dates for Zoom meetings are listed in the <em>Schedule</em> document. Those are subject to change. If we need to move things around, I’ll let you know on Slack and also update the <em>Schedule</em> document. At the designated times, I will start the meeting. I’ll wait around for 15 minutes. If nobody connects, I’ll end the meeting. If people connect, we’ll talk until we covered everything, or until I or you need to move on to our next appointments. The information for the Zoom meeting login will be provided on Slack.</p>
+<p>I have not tried using Zoom in this way for an online class previously. So this is an experiment, depending on how things go we need to change things.</p>
+<p>And of course, if you have something you want to discuss outside of those scheduled times, send me a message and we can schedule a meeting.</p>
+</div>
+<div id="discussion-guidelines" class="section level1">
+<h1>Discussion Guidelines</h1>
+<p>We can’t have in-class discussions in an online course, but discussions are an integral part of the course. We’ll do our best to get good and lively online discussions going. You will be asked to participate continuously in discussions for the duration of the course. Your contributions make up a good part of the class grade.</p>
+<p>I hope that lively online discussions will allow us to create a sense of class community that usually comes more naturally in an in-class course. I want everyone to feel like they are part of a class, a community of students learning together, instead of just being on their own interacting with the course in front of a computer screen. To achieve that, having a lot of discussion activity is vital.</p>
+<p>To make sure discussions work well for everyone, here are some general guidelines.</p>
+<ul>
+<li>You can and will be asked to both start new threads/posts or reply to others. If you start a new topic, make sure you are in the right channel. (If needed, you can also move posts to other channels later).</li>
+<li>You are encouraged to include links to additional material that you find online, including but not limited to research papers, sources like CDC or Wikipedia, and other useful resources. There are no rules on formatting other than that it should be readable.</li>
+<li>You don’t always have to provide references/links to resources, nor do you need to be sure that ‘you got it right’. It’s ok to post speculations/ruminations/thoughts occasionally.</li>
+<li>Make meaningful contributions. You are welcome to react to each others’ posts with 😃 or 👍, but that does not replace more substantial responses. Give reasons why you think something is one way or another.</li>
+<li>For the purpose of assessment, you need to participate in the discussions at the level specified in each module’s assessment document. I encourage you to engage in further discussions. Those further posts won’t be counted toward the requirement for a given module but will factor into the overall participation portion of the grade.</li>
+<li>It should be obvious that any posts should be helpful and civilized. I will remove any posts that are demeaning or otherwise inappropriate. Please let me know if you see such posts.</li>
+</ul>
+</div>
+<div id="discussion-assessment" class="section level1">
+<h1>Discussion Assessment</h1>
+<p>For most modules, you’ll have to do the following (unless specifically directed otherwise):</p>
+<ul>
+<li>You need to write a post (of at least several hundred words) as an answer to the weekly question/task. Post it into the appropriate channel by <strong>Wednesday evening</strong>.</li>
+<li>You need to write <strong>at least</strong> 3 replies to posts from classmates. Those can be replies to 3 different posts or multiple back-and-forth (of substance) for the same post/thread. You must post your replies by <strong>Friday evening</strong>.</li>
+<li>For each module (i.e. each week) you need to post a minimum of 4 posts (1 initial, 3 replies) with around 500 <em>meaningful</em> words total by the deadlines. I won’t count words (unless it looks really short), but I will count the number of posts and check if they have been posted before/by the deadline.</li>
+<li>Doing the required posts (quantity, quality, and timing) will give a 100 for this module’s discussion. Any shortcomings will lead to fewer points. If you don’t post anything or it’s all after the deadlines, it’s zero points. In the end, all scores are averaged and contribute to the discussion portion of the grade.</li>
+<li>Going above the minimum (more posts, longer contributions, especially thoughtful, etc.) will count positively toward the participation portion of the final grade.</li>
+<li>For each module, the assessment document contains specific discussion instructions. If the specific discussion instructions are different than the general ones here, you should follow the specific ones.</li>
+<li>Discussions will remain available for the whole course, and you can keep contributing at any time.</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

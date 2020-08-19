@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+<meta name="date" content="2020-08-19" />
+
+<title>IDEMA Fall 2020 - Course Introduction</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="icon" type="image/png" href="media/IDEMAlogo.png" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="IDEMACourse.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">IDEMA Course</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    General Information
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./Course_Syllabus.html">Syllabus</a>
+    </li>
+    <li>
+      <a href="./Course_Schedule.html">Schedule</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Modules
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">1. Course, Tools and Topic Introduction</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="./Course_Introduction.html">1a. Course introduction</a>
+        </li>
+        <li>
+          <a href="./Teaching_and_Learning.html">1b. Teaching and Learning thoughts</a>
+        </li>
+        <li>
+          <a href="./R_and_RStudio.html">1c. R and Rstudio</a>
+        </li>
+        <li>
+          <a href="./DSAIDE.html">1d. DSAIDE</a>
+        </li>
+        <li>
+          <a href="./Further_Tools.html">1e. Further Tools</a>
+        </li>
+        <li>
+          <a href="./ID_Dynamics_Introduction.html">1f. Topic introduction</a>
+        </li>
+        <li>
+          <a href="./1_Exercises.html">1g. Exercises</a>
+        </li>
+        <li>
+          <a href="./1_Assessments.html">1h. Assessments</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Project
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./Project_Information.html">Project information</a>
+    </li>
+    <li>
+      <a href="./Project_Rubric.html">Project rubric</a>
+    </li>
+    <li>
+      <a href="./Project_Review.html">Project review</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="./Course_Communication.html">Communication</a>
+</li>
+<li>
+  <a href="./Course_Glossary.html">Glossary</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./Course_Resources.html">Course Resources</a>
+    </li>
+    <li>
+      <a href="./General_Resources.html">General Resources</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/andreashandel/IDEMAcourse">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">IDEMA Fall 2020 - Course Introduction</h1>
+<h4 class="author">Andreas Handel</h4>
+<address class="author_afil">
+University of Georgia<br><h4 class="date">2020-08-19</h4>
+
+</div>
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Welcome to <strong>Infectious Disease Epidemiology - a Model-based Approach</strong>. This is a long title, so I’ll be referring to the course as IDEMA for short.</p>
+</div>
+<div id="module-overview" class="section level1">
+<h1>Module Overview</h1>
+<p>The course is divided into modules. Each module consists of one or several units.</p>
+<p>This first module provides a brief introduction to the course, followed by discussing and setting up our various tools and an introduction to the topic.</p>
+</div>
+<div id="module-learning-objectives" class="section level1">
+<h1>Module Learning Objectives</h1>
+<p>The specific learning objectives for this module are:</p>
+<ul>
+<li>Know what this course is all about.</li>
+<li>Know how this course is set up and what you are expected to do.</li>
+<li>Have all course tools and software set up and running.</li>
+<li>Get to know the instructor and your fellow students.</li>
+</ul>
+</div>
+<div id="course-learning-objectives" class="section level1">
+<h1>Course Learning Objectives</h1>
+<p>The main goal for this course is for you to learn different concepts of infectious disease (ID) epidemiology from a model-based perspective.</p>
+<p>I hope that this course will provide you with a view of infectious diseases at the population level (i.e. infectious disease epidemiology), which complements both a clinical perspective based on individual patients, and a classical epidemiological perspective based on specific study groups and designs (e.g. case-control, cohort and similar studies).</p>
+<p>Throughout this course, we will take a systems perspective to understand spread and control of infectious diseases. To give an example: We know that many infectious diseases have temporal patterns. E.g. influenza outbreaks usually occur annually, while measles outbreaks – before widespread vaccination – often occurred in multi-year cycles. What determines such patterns? The classical medical and epidemiological approaches are not well suited to answer this question, but - as we will see in this course - a systems perspective using models as tools for inquiry can answer this and other questions related to population level disease patterns.</p>
+<p>The learning objectives listed here are not complete, but cover the significant aspects of the course. By the end of the course, you will be able to:</p>
+<ul>
+<li>Explain and compute important epidemiological measures, such as reproductive number and level of herd immunity</li>
+<li>Appraise the fundamentally causal nature of mechanistic infectious disease (ID) computer models and master the use of such models to address important ID epidemiology research questions</li>
+<li>Interpret the meaning of specific dynamic patterns seen in ID incidence and prevalence</li>
+<li>Choose optimal ID intervention strategies based on features of specific IDs</li>
+<li>Predict the impact of different ID intervention strategies</li>
+<li>Critically evaluate the ID epidemiology literature</li>
+<li>Compare and assess the strengths and weaknesses of different ID data collection and analysis approaches</li>
+<li>Formulate meaningful ID epidemiology research questions of public health importance</li>
+<li>Select the appropriate data collection and analysis approach for a specific ID research question</li>
+<li>Explain the importance of system dynamical thinking for the study and control of ID</li>
+</ul>
+</div>
+<div id="course-prerequisites" class="section level1">
+<h1>Course Prerequisites</h1>
+<p>While the course is all about infectious diseases (ID), we will not spend much time discussing different diseases in detail. Instead, the focus is on overall features and patterns we see among different types of ID. We will of course often use specific ID as examples. In that case, I assume you know some basics of the disease or if you do not, that you will be reading up on it. Knowledge about a specific ID at the level provided by sources such as Wikipedia or CDC is usually enough.</p>
+<p>I also assume that you are familiar with public health/epidemiology concepts and terminology at a basic level (incidence, prevalence, different types of study designs, etc.). If you come across concepts or terms that you are unfamiliar with, a quick online search should help fill any gaps.</p>
+<p>Since this course takes a model-based approach, you will encounter mathematical and computer models. You will see equations describing specific ID systems, and you will see some R code. However, this course does not cover building and implementing models and how to write code. Instead, you will be interactively exploring already developed computer simulations of infectious disease systems, without the need to write code. You will occasionally have to perform some mathematical manipulations, but those won’t go beyond basic algebra.</p>
+</div>
+<div id="course-philosophy" class="section level1">
+<h1>Course Philosophy</h1>
+<p>I describe my thoughts on teaching and learning a bit more in the <strong>completely optional</strong> <em>Teaching and Learning thoughts</em> document, which is part of this module. As a summary, here are my goals, promises, and expectations for this course.</p>
+<ul>
+<li><p>I expect you to be self-motivated and committed to learning the material by putting in the effort needed to succeed.</p></li>
+<li><p>I will try to maximize the rewards you get by hopefully teaching topics you find interesting and useful.</p></li>
+<li><p>This class strives to be challenging but non-threatening. As such, you will be asked to work hard, and I expect you to do the assigned tasks by the deadlines, but in the end, I usually don’t grade hard - unless you fail to keep up your end of the agreement and don’t put in the work.</p></li>
+<li><p>This class is <em>open everything</em>. You can use the internet, ask your classmates, myself and others, get help from wherever you can. I trust you will find the right balance of getting help when you need it while still putting in enough effort to experience real learning.</p></li>
+<li><p>I will not perform any policing to try to prevent you from taking shortcuts (i.e., not doing work yourself). The class contains graded assessments with deadlines; those are meant to <em>help you stay on track.</em> If you cheat - and cheating will be easy - you are mainly cheating yourself out of learning.</p></li>
+</ul>
+<p><strong>Overall, I hope this course is going to be useful, interesting, challenging and also interactive. Online courses are always a bit tricky with interaction/participation. I hope we can create something online that feels like a classroom. Please participate, ask questions, provide feedback, make suggestions for improvements, etc. The more you engage in the course, the more you’ll get out of it.</strong></p>
+</div>
+<div id="course-setup" class="section level1">
+<h1>Course Setup</h1>
+<ul>
+<li>The course is taught in an <strong>asynchronous</strong> and <strong>cohort</strong> style. <strong>Asynchronous</strong> means that you can do each part of the course at times that are convenient for you – <strong>as long as you complete all the assessments by the specified deadlines.</strong> <strong>Cohort style</strong> means that everyone taking the class starts and ends at the same dates, corresponding to the start and end of the semester.</li>
+<li>The course is split into modules. Each module will usually be covered in a week. The <em>Schedule</em> document provides more details. The schedule will likely change as the semester progresses, so check frequently. Each module will be covered during a specific time frame and has assignments which you need to complete by the specified deadline.</li>
+<li>Each module consists of one or several units/documents containing a mix of things I wrote, writings or videos by others, computer based exercises, discussions, etc. Content for a specific module is listed in the order you should go through things. It should always be clear what is required for a given module. If anything is ever unclear, please ask (see <em>Communication</em> section on course website).</li>
+<li>All material for the course can be accessed through this course website. The main page of the course describes the different sections and documents. Most material is not yet available. It will be added/unlocked as the course proceeds. Once material is added, it will remain on the site. I might update materials occasionally.</li>
+<li>We will have a few synchronous Zoom meetings, those are entirely optional. See the <em>Communication</em> section of the course website.</li>
+</ul>
+</div>
+<div id="course-tools" class="section level1">
+<h1>Course Tools</h1>
+<p>This is a brief overview of the tools we will be using for this class. They are described in more detail in further documents.</p>
+<ul>
+<li>We will use the DSAIDE software package in this course. This software is written for R. Therefore, you will also need to install R, which is very easy. Further instructions on this are provided.</li>
+<li>We will also use RStudio (a graphical frontend to R).</li>
+<li>We will use Slack for discussions, help, announcements, and any other form of asynchronous communication.</li>
+<li>We will use Zoom for occasional, completely optional synchronous disucssions.</li>
+</ul>
+</div>
+<div id="assessments" class="section level1">
+<h1>Assessments</h1>
+<p>The grade will be made up as follows:</p>
+<ul>
+<li>30% weekly quizzes</li>
+<li>30% discussion</li>
+<li>10% general participation</li>
+<li>30% a course long project, broken up into pieces.</li>
+</ul>
+<p>The following grading scale will be used, final grades might be curved (only upward): A 93-100, A- 90-93, B+ 87-90, B 83-87, B- 80-83, C+ 77-80, C 73-77, C- 70-73, D 60-70, F &lt; 60</p>
+<p><strong>Most modules have assessments (these are graded). Due dates are usually Friday 5 pm the week of the module. Some might be at other times, e.g., the beginning or middle of the week. You are responsible for keeping up with the due dates. If in doubt, ask.</strong></p>
+<p>Every module will have an <em>Assessment</em> document, which describes what work you need to do for that module that will be graded. The following types of assessments are part of the course.</p>
+<div id="online-quizzes" class="section level2">
+<h2>Online quizzes</h2>
+<ul>
+<li>For each module, there will be (usually two) fairly short quizzes. One quiz covers the DSAIDE exercise, the other the reading material. The primary purpose of the quizzes is to ensure you worked through the assigned material.</li>
+<li>Each quiz will be scored ‘out of a 100%’, no matter how many questions there are for a given quiz (e.g. if there are 8 questions and you got 7 right, your score will be 7/8 * 100). Since there are often only few questions, if you say miss 1 out of 5, you get a score of 80%. Don’t think of this as a grade, it’s just a raw score. At the end, those will all get adjusted.</li>
+<li>For each quiz, there is a quiz sheet, available in the <em>Course Resources</em> section. Quiz sheets are Excel files. Each Excel file contains quiz questions covering either the DSAIDE software or the other course material (or both). You can fill in the answers on the quiz sheet at any time. Once finished, you need to upload it <a href="https://shiny.ovpr.uga.edu/gradingapp/">to this website</a> by the due date for a given week. <strong>You can only submit your answers once for each quiz, and you will not be able to submit your quiz after the due date.</strong></li>
+</ul>
+</div>
+<div id="exercises" class="section level2">
+<h2>Exercises</h2>
+<p>Most course modules have one or more exercises, usually based on the DSAIDE package. Do the exercises at any time, and as you go, fill in the answers to the quiz sheet for that exercise. The <em>Exercises</em> document for each module will provide more details</p>
+</div>
+<div id="discussion-and-participation" class="section level2">
+<h2>Discussion and Participation</h2>
+<p>You will be asked regularly to post discussions to Slack, and respond to posts by others. <strong>The general setup, unless otherwise stated, is that you need to post your initial write-up by Wednesday, and post at least 3 replies by the Friday deadline.</strong> I also encourage general, continued participation on the discussion boards. Participation can take any form, such as asking questions, answering questions, posting links to interesting content, providing feedback, etc. The more, the better 😄. Both quality and quantity will affect your participation grade. More details are given in either the <em>Exercises</em> or <em>Assessment</em> document for each module.</p>
+</div>
+<div id="class-project" class="section level2">
+<h2>Class project</h2>
+<p>The project is a semester-long project broken into pieces with several deadlines. The <em>Projects</em> section provides more details.</p>
+</div>
+</div>
+<div id="course-resources" class="section level1">
+<h1>Course Resources</h1>
+<p>We’ll be drawing on a lot of different resources. I compiled a list with the ones we’ll use and others you might find helpful in the <em>Resources</em> section of the class website.</p>
+</div>
+<div id="getting-help" class="section level1">
+<h1>Getting help</h1>
+<p>Please use the communications tools for this class liberally to ask for help. See the <em>Communication</em> page for more.</p>
+<div class="figure">
+<img src="media/dilbert-overqualified-phd.gif" alt="" />
+<p class="caption">A way you could interact with your course instructor. <a href="http://dilbert.com/strip/2013-05-24">Source: Dilbert</a></p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

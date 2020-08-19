@@ -1,0 +1,134 @@
+---
+title: "Project Review Template"
+author: "YOURNAME"
+date: "`r file.mtime(knitr::current_input())`"
+output:
+  word_document:
+    toc_depth: 3
+---
+
+# Overview
+
+Title of project:
+
+Name of project authors:
+
+Name of project reviewer:
+
+
+# Instructions
+
+Write your comments and feedback below for each section/component of the project. The goal should be to help the authors improve their project. Make comments as constructive and actionable as possible. You can provide both criticism and praise.
+
+For each component, pick one summary statement by deleting the ones that do not apply and keeping only the one that you think most closely summarizes a given component. 
+
+Delete any sections/text of this template that are not part of your final review document. 
+
+
+# Project Evaluation
+Evaluate the different parts of the project by filling in the sections below.
+
+
+## Background, Context and Motivation
+How well is the context of the project described? Is a comprehensive background, including summary of previous/related work given? Is the project well placed into the context of existing work (including proper referencing of existing work). Is it clear why the project was undertaken and what new information it hopes to provide?
+
+### Feedback and Comments
+
+WRITE YOUR FEEDBACK HERE
+
+### Summary assessment
+* very poor contextualization and motivation
+* some contextualization and motivation
+* strong contextualization and motivation
+
+
+## Question description
+How well and clear are the question(s)/hypotheses/goals the project aims to address described? 
+
+
+### Feedback and Comments
+
+WRITE YOUR FEEDBACK HERE
+
+### Summary assessment
+* question/hypotheses/goals unclear
+* question/hypotheses/goals somewhat explained
+* question/hypotheses/goals fully clear
+
+
+## Methodology
+How clearly and completely are the approaches underlying the project described?
+
+### Feedback and Comments
+
+WRITE YOUR FEEDBACK HERE
+
+### Summary assessment
+* question/hypotheses/goals unclear
+* question/hypotheses/goals somewhat explained
+* question/hypotheses/goals fully clear
+
+
+## Structure
+Is the project well structured? Are all project components easy to follow. If there are supplementary files, are they well labeled and easy to access?
+
+### Feedback and Comments
+
+WRITE YOUR FEEDBACK HERE
+
+### Summary assessment
+* poor and confusing structure
+* mostly clear, but some confusing parts (e.g. useless files, things in the wrong folders)
+* well structured
+
+
+
+## Results/Outcomes
+How interesting and complete are the results/products/outcomes of this project? How thorough was the overall study? What level of quality is the work? 
+
+### Feedback and Comments
+
+WRITE YOUR FEEDBACK HERE
+
+### Summary assessment
+* boring/weak/incomplete results 
+* solid/ fairly complete results 
+* interesting/strong/complete results 
+
+
+
+## Presentation
+How well are results/outcomes presented? For figures and tables and figures, are they easy to read and understand? For other materials (e.g. videos, websites), are they of of high level quality? 
+
+### Feedback and Comments
+
+WRITE YOUR FEEDBACK HERE
+
+### Summary assessment
+* results are poorly presented, hard to understand, poor quality
+* results are presented ok, with room for improvement
+* results are very well presented
+
+
+## Discussion/Conclusions/Summary
+Are the project results/outcomes well discussed and placed in context? If there are new findings, are they interpreted properly? 
+
+### Feedback and Comments
+
+WRITE YOUR FEEDBACK HERE
+
+### Summary assessment
+* major parts of discussion missing or wrong 
+* minor parts wrong, missing or unclear
+* strong, complete and clear discussion
+
+
+
+## Further comments
+
+_Add any other comments regarding the project here. Write anything you think can help your classmate improve their project._
+
+
+
+
+

@@ -1,0 +1,73 @@
+---
+title: IDEMA Course Resources
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, echo = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+This page lists resources that are used or mentioned in this course. For a more extensive list of resources, see the _General Resources_ page.
+
+All materials described below are (should be) freely available online. If you can't get to them, let me know. Note that a lot of the listed resources are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If you notice anything that's not quite right, please let me know.
+
+# General help
+
+* The main place to get any course specific help are the various Slack channels in our class workspace. Use them widely to ask questions, to answer others' questions, to post links to interesting resources, etc. 
+* There will very likely be times when some material in the course doesn't quite make sense and you need to do some auxiliary reading. Google will be your best friend. Wikipedia is often a very good starting point for many topics. 
+
+
+
+# Books
+
+* [Infectious Disease Epidemiology - a Model-based Approach (IDEMAB)](https://andreashandel.github.io/IDEMAbook/). This is the book that goes with the class, it is basically an extended version of my previous lecture notes. It is perpetually under construction and some parts are more polished than others. All chapters assigned in this course should be fairly readable.
+
+
+# Online courses
+
+Throughout this course, I link to videos from a few online courses that cover similar topics to this course. While the videos are embedded and you do not need to sign up for those online courses, if you are interested, you could. Signing up for those courses should be free. Coursera might want to talk you into getting a certificate (and paying), but you can skip that and get the whole course content for free (last time I checked, let me know if that has changed.)
+
+* [Epidemics](https://www.coursera.org/learn/epidemics). This course was developed by several infectious disease faculty at Penn State and is offered through the MOOC provider Coursera. 
+* [Epidemics](https://www.coursera.org/learn/hkuepidemics/). This course has the same name and lives on the same platform as the Penn State course, but it is offered by a team of instructors from the University of Hong Kong (HKU).
+
+Note that the HKU course started out as a course called "Epidemics" on the EdX platform. Now there is the above course on the Coursera platform. In addition, there is a sequence of courses, [Epidemics I-IV on the EdX platform](https://www.edx.org/search?q=epidemics). The Coursera and EdX offerings seem similar, I don't know if/how they differ.
+
+For this class, I will embed all relevant materials. You therefore don't need to further check out those courses if you don't want to. However, if you are interested, I encourage you to give them a try. They have great content and cover some topics which we won't cover in this course. Neither of these courses takes an explicit model-based perspective, but many topics are discussed with such a framework in mind (and several of the instructors for each course are infectious disease modelers).
+
+
+
+# Hands-on/interactive resources
+
+* [Dynamical Systems Approach to Infectious Disease Epidemiology (DSAIDE)](https://ahgroup.github.io/DSAIDE/). The R package for the course which lets you do hands-on explorations of the different topics we will cover.
+
+
+# Quiz sheets
+For each module, you are asked to fill out one or more than one sheets with questions related to the course material. Usually, there is one quiz covering the DSAIDE tasks and one quiz covering the other materials (reading, videos) for a given module (the latter I call _Theory Quiz_ below.)
+
+Each quiz sheet is an Excel file. Download them from the links below, fill in the "Answer" column, and submit [to this website](https://shiny.ovpr.uga.edu/gradingapp/).
+
+__Please do not make any other changes to the sheets apart from filling the "Answer" column. If you do make changes, submission might fail. If that happens and you get an error message, simply come back here, download a fresh sheet and copy and paste your answers into it, making sure to not change any other part of the sheet.__
+
+
+## Module 1
+* [_Basic SIR_ DSAIDE Quiz](./quizsheets/dsaide_basicsir.xlsx)
+* [ Theory Quiz](./quizsheets/theory_module1.xlsx)
+
+
+## Module 2
+
+_Further quizzes will show up here as the course progresses._
+
+# Exercise solutions
+
+After the due date for each quiz, I will place solution files to the DSAIDE exercises [in this Dropbox folder](https://www.dropbox.com/sh/ud2n0crtao2rmlg/AABQ7MRiEyIap308GoHEYggSa?dl=0). They are fairly detailed and also show you how you can use `R` commands (instead of the graphical interface) to do all the Tasks. I highly recommend looking at them (even if you get all answers correct).
+

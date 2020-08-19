@@ -1,0 +1,53 @@
+---
+title: IDEMA Fall 2020 - Course Schedule
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc: FALSE
+---
+
+## Overview
+
+This is the current course schedule for the class. Things will likely change somewhat as the semester progresses. Check regularly for updates.
+
+The _External Sources_ column only lists major external sources. Material provided on this website, as well as other smaller assignments embedded or linked in the course documents (e.g. videos, papers) are not listed. This is only meant as a quick reference, the course materials provide more detail and are the definite source in case of discrepancies.
+
+Abbreviations used are: 
+
+* [IDEMAB = Infectious Disease Epidemiology - A model-based approach book](https://andreashandel.github.io/IDEMAbook/). Numbers refer to the chapter. 
+* [DSAIDE = Dyanamical Systems Approach to Infectious Disease Epidemiology - R package](https://ahgroup.github.io/DSAIDE/).
+
+The _Assessments_ column lists items that need to be submitted and that will be graded. Those are described in detail in the assessment document for each module. __Unless otherwise specified, submission deadline is the module end date (Friday) 5pm.__
+
+## Schedule
+
+| **Module Topic**   | **Start and end dates** | **External Sources** | **Assessments** |
+| --- | --- | --- | --- |
+| Module 1 – Introduction to the course | 8/20 – 8/28 | IDEMAB 1-2, DSAIDE | quizzes, introducing ourselves exercise, discussion |
+| Module 2 –  Characterizing Infection states  | 8/31 – 9/4 | IDEMAB 3, DSAIDE   | quizzes, discussion|
+| Module 3 -  ID Patterns - Outbreaks, cycles and endemic states | 9/7 – 9/11 | IDEMAB 4, DSAIDE | quizzes, discussion, project part 1 due 9/11 |
+| Module 4 - Reproductive Number 1 | 9/14 – 9/18 | IDEMAB 5, DSAIDE | quizzes, discussion |
+| Module 5 - Reproductive Number 2| 9/21 – 9/25 | IDEMAB 5, DSAIDE | quizzes, discussion |
+| Module 6 - Modes of direct transmission  | 9/28 – 10/2 | IDEMAB 6+7, DSAIDE  | quizzes, discussion, project part 2 due 10/2 |
+| Module 7 - Environmentally transmitted ID  | 10/5 – 10/9 | IDEMAB 8, DSAIDE | quizzes, discussion |
+| Module 8 - Vector-borne ID  | 10/12 – 10/16 | IDEMAB 9, DSAIDE  | quizzes, discussion |
+| Module 9  - Host Heterogeneity | 10/19 – 10/23 | IDEMAB 10, DSAIDE  | quizzes, discussion |
+| Module 10 - ID Control 1 | 10/26 – 10/30 | IDEMAB 11, DSAIDE  | quizzes, discussion, project part 3 due 10/30 |
+| Module 11 - ID Control 2 | 11/2 – 11/6 | IDEMAB 11, DSAIDE  | quizzes, discussion |
+| Module 12 - Stochasticity and Extinctions | 11/9 – 11/13 | IDEMAB 14, DSAIDE  |  quizzes, discussion |
+| Module 13 - Evolutionary Dynamics and EID | 11/16 – 11/20 | IDEMAB 15-17 , DSAIDE | quizzes, discussion |
+| Finishing Project | 11/23 – 11/27 (fall break part of the week) | none | project part 4 due 11/27 |
+| Project Reviews | 11/30 – 12/4 | none | project reviews due 12/4 |
+| Final project submission  | 12/9 | none | project part 5 due |
+
+## Synchronous Zoom meetings
+The current plan is to have _weekly_, **completely optional** Zoom meetings. See the _Communication_ section for some more details. You can find the Zoom link on Slack.
+
+I'll use Slack to see what days and times work best. I'll probably alternate between weeks to ensure everyone can join if they want to at least every 2 weeks.
+
+**The first zoom session will be on Monday, 8/24 at 4pm ET.**
+

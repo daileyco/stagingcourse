@@ -1,0 +1,49 @@
+---
+title: DSAIDE
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+**Note: Unfortunately, the latest version of the DSAIDE package didn't make it to CRAN in time (they are on vacation). Therefore, you need to install DSAIDE from Github with the `remotes` package. Follow the 2nd option (installing from GitHub) as described in the [_Installation_ section here](https://ahgroup.github.io/DSAIDE/articles/DSAIDE.html). Make sure you have version 0.8.6.**
+
+
+# Overview
+This document provides a brief introduction to the `DSAIDE` package, which we will use a lot in this course. 
+
+# Learning Objectives
+* Know how to run and use the `DSAIDE` package.
+
+
+# DSAIDE Introduction
+
+DSAIDE, which stands for _Dynamical Systems Approach to Infectious Disease Epidemiology_ is an R package I wrote. The goal is for users to explore infectious disease models and topics without having to implement their own models and write code. 
+
+Go to the [DSAIDE website](https://ahgroup.github.io/DSAIDE/) and read through the main page and the _Get started_ section. Follow any instructions for steps that you haven't done yet, namely installing R and RStudio and the DSAIDE package.  
+
+You can skip or skim over the "Level 2" and "Level 3" sections. We won't use this approach to interact with DSAIDE in the course - though you are of course allowed to do so. 
+
+
+# DSAIDE hands-on
+
+If you haven't done already, load DSAIDE. You should see a short message on the screen. Some packages show messages when you load them, and others don't. In this case, the package tells you that you can start using it by typing `dsaidemenu()` into the R console. Do that to start it
+
+```{r, eval=FALSE}
+dsaidemenu()
+```
+
+A menu should open in your browser, from which you can explore different models/apps. **Make sure the version and date shown at the top is recent and corresponds to the version you are asked to have. Right now this is version 0.8.6.**
+
+You can explore DSAIDE now as much as you want, but you can also close it for now, as we'll be coming back to it and working through most of the apps as part of the course.
+
+
+# Further materials
+
+_This source cover more or less the same material that you just read, so checking it out is optional._
+
+[I published a paper describing the package](https://doi.org/10.1371/journal.pcbi.1005642). The paper is by now somewhat outdated with regards to the details of the package, but it describes the overall idea and context well.

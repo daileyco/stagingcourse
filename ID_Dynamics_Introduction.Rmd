@@ -1,0 +1,45 @@
+---
+title: Overview of Infectious Disease Dynamics  
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+## Overview
+This unit provides an introduction to the overall idea of studying the dynamics of infectious diseases, why it is useful to take a model-based approach, and what that means. 
+
+
+# Assignments
+
+_Note: For this and any future modules, you can do the videos and readings in any order. Usually, if there is a paper assigned, it is best to read it last since it often assumes knowledge of material covered in the videos and the reading._
+
+Start by reading the 1st and 2nd chapters of [IDEMAB](https://andreashandel.github.io/IDEMAbook). 
+
+
+## Examples of model/systems thinking
+This video provides a nice introduction to systems thinking, using the example of obesity.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2vojPksdbtI" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+A famous dynamical system model (not from the area of infectious diseases) is Schelling's segregation model. In the following video, [Scott Page](http://sites.lsa.umich.edu/scottepage/) explains and illustrates this model.  
+<p> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/42STyM7RfrU" frameborder="0" allowfullscreen></iframe>
+</p>
+This video is part of a course called ["Model Thinking"](https://www.coursera.org/learn/model-thinking). It is hosted on Coursera and (last I checked), is available for free. I highly recommend the course.
+
+
+## Models in infectious disease epidemiology
+This video is from a MOOC (Massive Open Online Course) called ["Epidemics"](https://www.coursera.org/learn/epidemics), developed by several infectious disease faculty at Penn State and offered through the MOOC provider Coursera. Matt Ferrari, one of the course instructors, gives a brief discussion of infectious disease models.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SmhgeS-g90c" frameborder="0" allowfullscreen></iframe>
+</p>
+
+

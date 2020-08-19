@@ -1,0 +1,97 @@
+---
+title: IDEMA Project Rubric 
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+# Overview
+
+This document provides more detailed instructions and grading rubrics for each part of the project.
+
+
+# Part 1
+
+**The main objective for part 1 is to describe your planned project in enough detail that I can assess if is suitable and feasible.** 
+
+To that end, provide any information you think is necessary for me to judge the chances for your project to be doable and result in a good quality project.
+For instance you can describe why it's an interesting question, if anyone else has done similar things, how your project is going to be new, what your project will entail, how you plan on going about doing it. You are allowed, but not yet required, to start including citations, providing background information, etc. This document can be fairly short, a page might be enough. Of course if you already have details, provide them. 
+
+Grading for this part will follow the following simple rubric: 
+
+| **Category** | **Description**  | **Score** |
+| --- | --- | --- |
+| Absent | Everything or majority of submission is missing | 0 |
+| Not sufficient | Submission is very incomplete, has major missing parts which does not allow me to assess if project is suitable and feasible | 50 |
+| Sufficient | Submission is complete or fairly complete, contains enough information for assessment | 100 |
+
+
+# Part 2
+
+**The main objective for part 2 is to have your project conceptualized and a structure in place, with more details included. Potential changes might happen from part 1 based on feedback you received for your initial submission. ** 
+
+To that end, provide the following pieces of information:
+
+* A report that contains the full concept and structure for the project, inluding a detailed outline. 
+* Inclusion of some background information and references.
+* Any components/results you have started working on.
+
+Grading for this part will follow the following rubric: 
+
+| **Category** | **Description**  | **Score** |
+| --- | --- | --- |
+| Absent | Everything or majority of submission is missing | 0 |
+| Not sufficient | Submission is very incomplete, has major missing parts | 50 |
+| Sufficient | Submission is complete or fairly complete | 100 |
+
+
+
+# Part 3
+
+**The main objective for part 3 is to have a first draft of the full project and report.** 
+
+To that end, provide the following pieces of information:
+
+* A report that has all the needed components (in can be draft, doesn't have to be polished yet).
+* Any other relevant files or links to files that are part of the project, as a first draft.
+* The whole project should essentially be there, at least as a first draft. It is understood that things can change, might not be polished, etc.
+
+Grading for this part will follow this rubric: 
+
+| **Category** | **Description**  | **Score** |
+| --- | --- | --- |
+| Absent | Everything or majority of submission is missing | 0 |
+| Insufficient | Submission is very incomplete, major parts missing | 50 |
+| Not fully sufficient | Submission is somewhat incomplete, minor parts missing | 75 |
+| Sufficient | Submission is complete or fairly complete | 100 |
+
+
+# Part 4
+
+**The main objective for part 4 is to have a fully completed project, ready for peer review.** 
+
+To that end, provide the following pieces of information:
+
+* The fully completed report for your project.
+* Any other materials that are part of your project either as supplementary files or links. 
+* Everything should be well written and polished.
+
+I will not grade this part but it will be assessed by your peers, as described in the _Project Review_ document.
+
+
+# Part 5
+
+**The main objective for part 5 is to have a finished project, ready for final grading.** 
+
+To that end, provide the following pieces of information:
+
+* Everything from part 4, with improvements based on peer review feedback.
+
+Grading for this part will follow the same rubric used for peer review, provided in the _Project Review_ document. 
+
+
