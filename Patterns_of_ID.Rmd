@@ -15,12 +15,12 @@ output:
 In this module, we will discuss different patterns of ID dynamics, such as single outbreaks, recurrent cycles, and steady endemic states. 
 
 
-## Reading
+# Reading
 
 Read ["Patterns of ID dynamcis"](https://andreashandel.github.io/IDEMAbook/patterns-of-infectious-disease-dynamics.html) of IDEMAB.
 
 
-## Videos
+# Videos
 
 The following videos provide complementary material and cover some aspects concerning different general patterns of ID dynamics, and what conditions can lead to different outcomes, such as single outbreaks, repeated outbreaks/cycles, and steady endemic states.
 
