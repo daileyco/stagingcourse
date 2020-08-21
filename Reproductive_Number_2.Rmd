@@ -25,7 +25,8 @@ Next, for something topical, read [this paper by Sarah Cobey](./media/cobey20sci
 The following videos discuss some further aspects of the reproductive number.
 
 ## Another explanation of the reproductive number 
-In the following video, Joseph Wu from the University of Hong Kong provides another explanation of the reproductive number. He also briefly explains another important quantity to characterize transmission, the secondary attack ratio (it's not a rate and should therefore not be called that, but often it is, like in this video). 
+
+[Joseph Wu](https://sph.hku.hk/en/about-us/faculty-and-staff/academic-staff/wu,-tsz-kei-joseph) explains the reproductive number. He also briefly explains another important quantity to characterize transmission, the secondary attack ratio (it's not a rate and should therefore not be called that, but often it is, like in this video). 
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NI8IuF7QJy4" frameborder="0" allowfullscreen></iframe>
@@ -33,7 +34,7 @@ In the following video, Joseph Wu from the University of Hong Kong provides anot
 
 
 ## Reproductive number and vaccination
-In this video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), Matt discusses the relation between the reproductive number and vaccination. We will discuss vaccination and other control strategies at some later point in more detail.
+In this video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), [Matt Ferrari](https://theferrarilab.squarespace.com/) discusses the relation between the reproductive number and vaccination. We will discuss vaccination and other control strategies soon.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EzShDUWww9A" frameborder="0" allowfullscreen></iframe>
@@ -41,7 +42,7 @@ In this video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemi
 
 
 ## Reproductive number and force/age of infection
-This video, again from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), discusses the connection between the reproductive number and the force and age of infection.
+This video, again from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), [Matt Ferrari](https://theferrarilab.squarespace.com/) discusses the connection between the reproductive number and the force and age of infection.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dj1DiqA4Lvg" frameborder="0" allowfullscreen></iframe>

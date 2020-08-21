@@ -36,13 +36,17 @@ The outbreak in the _Contagion_ movie has a lot of similarities to COVID-19! For
 
 
 ## A more detailed explanation of the reproductive number
-This video is from a MOOC (Massive Open Online Course) called ["Epidemics"](https://www.coursera.org/learn/epidemics), developed by several infectious disease faculty at Penn State and offered through the MOOC provider Coursera. Matt Ferrari, one of the course instructors, provides a very good explanation of the reproductive number concept.
+This video is from a MOOC (Massive Open Online Course) called ["Epidemics"](https://www.coursera.org/learn/epidemics), developed by several infectious disease faculty at Penn State and offered through the MOOC provider Coursera. 
+
+[Matt Ferrari](https://theferrarilab.squarespace.com/) provides a very good explanation of the reproductive number concept.
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/ju26rvzfFg4" frameborder="0" allowfullscreen></iframe></p>
 
 
 ## Reproductive number and epidemic curve
-This is another video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), which discusses the shape of an individual outbreak curve and how it relates to the reproductive number.
+This is another video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics). 
+
+[Ottar Bjornstad](https://ento.psu.edu/directory/onb1), one of the course instructors, discusses the shape of an individual outbreak curve and how it relates to the reproductive number.
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/sSLfrSSmJZM" frameborder="0" allowfullscreen></iframe></p>
 

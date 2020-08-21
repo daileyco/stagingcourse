@@ -39,7 +39,7 @@ The _Assessments_ column lists items that need to be submitted and that will be 
 | Module 10 - Host Heterogeneity | 10/26 – 10/30 | IDEMAB 10, DSAIDE  | quizzes, discussion, project part 3 due 10/30 |
 | Module 11 - ID Control 2 | 11/2 – 11/6 | IDEMAB 11, DSAIDE  | quizzes, discussion |
 | Module 12 - Stochasticity and Extinctions | 11/9 – 11/13 | IDEMAB 14, DSAIDE  |  quizzes, discussion |
-| Module 13 - Evolutionary Dynamics and EID | 11/16 – 11/20 | IDEMAB 15-17 , DSAIDE | quizzes, discussion |
+| Module 13 - Evolutionary Dynamics and Emerging Infectious Diseases | 11/16 – 11/20 | IDEMAB 15-17 , DSAIDE | quizzes, discussion |
 | Finishing Project | 11/23 – 11/27 (fall break part of the week) | none | project part 4 due 11/27 |
 | Project Reviews | 11/30 – 12/4 | none | project reviews due 12/4 |
 | Final project submission  | 12/9 | none | project part 5 due |
