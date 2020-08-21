@@ -1,0 +1,53 @@
+---
+title: Infectious Disease Control 1 
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+# Overview
+
+Various control strategies, such as vaccination, have already made an appearance throughout the course. In this module, we will take a focused look at infectious disease control strategies and investigate some further topics related to control.
+
+
+# Reading
+
+Start by reading the ["Infectious Disease Control" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/infectious-disease-control.html).
+
+
+# Videos
+
+## Introduction Video
+First a quick overview and introductory video on the topic of ID control from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), provided by Rachel Smith.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3cqItrRu5D0" frameborder="0" allowfullscreen></iframe>
+</p>
+
+## Impact of ID control
+In these 2 videos, Matt Ferrari from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics) discusses the impact of vaccines and control in general.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5myy2Hh4dFs" frameborder="0" allowfullscreen></iframe>
+</p>
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0oXsxeEaL6Y" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## The anti-vaccination movement
+A funny video clip about anti-vaccine proponents. 
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B_hCLWtEHL8" frameborder="0" allowfullscreen></iframe>
+</p>
+
+A short outreach video from [PhD Comics](http://phdcomics.com/) describing vaccines and the problem with vaccine refusal.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s_6QW9sNPEY" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+
