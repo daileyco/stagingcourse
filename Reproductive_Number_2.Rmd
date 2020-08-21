@@ -42,7 +42,7 @@ In this video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemi
 
 
 ## Reproductive number and force/age of infection
-This video, again from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), [Matt Ferrari](https://theferrarilab.squarespace.com/) discusses the connection between the reproductive number and the force and age of infection.
+In this video, again from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), [Matt Ferrari](https://theferrarilab.squarespace.com/) discusses the connection between the reproductive number and the force and age of infection.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dj1DiqA4Lvg" frameborder="0" allowfullscreen></iframe>

@@ -22,13 +22,15 @@ Start by reading the ["Infectious Disease Control" chapter of IDEMAB](https://an
 # Videos
 
 ## Introduction Video
-First a quick overview and introductory video on the topic of ID control from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), provided by Rachel Smith.
+
+[Rachel Smith](https://cas.la.psu.edu/people/ras57) provides an overview and introductoion to the topic of ID control.
+
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3cqItrRu5D0" frameborder="0" allowfullscreen></iframe>
 </p>
 
 ## Impact of ID control
-In these 2 videos, Matt Ferrari from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics) discusses the impact of vaccines and control in general.
+In these 2 videos, [Matt Ferrari](https://theferrarilab.squarespace.com/)  discusses the impact of vaccines and general ID control.
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5myy2Hh4dFs" frameborder="0" allowfullscreen></iframe>
 </p>
@@ -39,12 +41,15 @@ In these 2 videos, Matt Ferrari from the ["Epidemics MOOC"](https://www.coursera
 
 
 ## The anti-vaccination movement
-A funny video clip about anti-vaccine proponents. 
+
+While the whole issue of getting people to go along with ID control measures, such as vaccination (or wearing masks), is an important problem, it is somewhat outside the scope of this course. We'll therefore not go much deeper into issues surrounding human behavior related to ID control. But for some - fairly lighthearted - content regarding vaccination, check out these two short videos. 
+
+A funny video clip about anti-vaccine proponents made by [Girl Pants Productions](https://www.youtube.com/channel/UC6pjGVe5KP9t_EIKhrjbGIA) (who/whatever they are). 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B_hCLWtEHL8" frameborder="0" allowfullscreen></iframe>
 </p>
 
-A short outreach video from [PhD Comics](http://phdcomics.com/) describing vaccines and the problem with vaccine refusal.
+A short outreach video from [PhD Comics](http://phdcomics.com/tv/) describing vaccines and the problem with vaccine refusal.
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s_6QW9sNPEY" frameborder="0" allowfullscreen></iframe>
 </p>
