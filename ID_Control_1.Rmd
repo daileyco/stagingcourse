@@ -23,7 +23,7 @@ Start by reading the ["Infectious Disease Control" chapter of IDEMAB](https://an
 
 ## Introduction Video
 
-[Rachel Smith](https://cas.la.psu.edu/people/ras57) provides an overview and introductoion to the topic of ID control.
+[Rachel Smith](https://cas.la.psu.edu/people/ras57) provides an overview and introduction to the topic of ID control.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3cqItrRu5D0" frameborder="0" allowfullscreen></iframe>

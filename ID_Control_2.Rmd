@@ -24,11 +24,16 @@ You might still remember most of what you read, but it won't hurt to do another 
 Here are a few more videos that cover various aspects of ID control. 
 
 ## Non-pharmaceutical ID control
-In the following two videos from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), Marcel and Rachel describe some interventions that do not use pharmaceutical interventions.
+
+In the following video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), 
+[Marcel Salathe](https://www.epfl.ch/labs/salathelab/) describes non-pharmaceutical ID control interventions applied to prevent healthy individuals from becoming infected.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/admya5k0wmg" frameborder="0" allowfullscreen></iframe>
 </p>
+
+[Rachel Smith](https://cas.la.psu.edu/people/ras57) discusses what one needs to consider to implement good (non-pharmaceutical) intervention campaigns.
+
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vAP_AwQni3c" frameborder="0" allowfullscreen></iframe>
 </p>

@@ -54,7 +54,7 @@ navbar:
               href: ./Patterns_of_ID_Assessments.html
         - text: "4. Reproductive Number 1"
           menu:
-            - text: "4a. Reproductive Number"
+            - text: "4a. Reproductive Number 1"
               href: ./Reproductive_Number_1.html
             - text: "4b. Exercises"
               href: ./Reproductive_Number_1_Exercises.html
@@ -62,7 +62,7 @@ navbar:
               href: ./Reproductive_Number_1_Assessments.html
         - text: "5. Reproductive Number 2"
           menu:
-            - text: "5a. Reproductive Number"
+            - text: "5a. Reproductive Number 2"
               href: ./Reproductive_Number_2.html
             - text: "5b. Exercises"
               href: ./Reproductive_Number_2_Exercises.html
