@@ -64,6 +64,10 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Reproductive number 2 DSAIDE Quiz](./quizsheets/dsaide_reproductivenumber2.xlsx)
 * [Theory Quiz](./quizsheets/theory_reproductivenumber2.xlsx)
 
+## Module 6 - ID Control 1
+* [Theory Quiz](./quizsheets/theory_idcontrol1.xlsx)
+
+
 _Further quizzes will show up here as the course progresses._
 
 # Exercise solutions

@@ -32,7 +32,7 @@ Read the chapter ["Host Heterogeneity"](https://andreashandel.github.io/IDEMAboo
 
 The following videos discuss how the differences between individuals (host heterogeneity) impact spread and control of infectious diseases.
 
-##Heterogeneities due to age
+## Heterogeneities due to age
 In this video from the [University of Hong Kong Epidemics course](https://www.edx.org/course/epidemics-hkux-hku01x-0), [Marc Lipsitch](https://www.hsph.harvard.edu/marc-lipsitch/) explains how age is a major factor impacting ID spread and infection outcomes.
 
 <p>
@@ -40,7 +40,7 @@ In this video from the [University of Hong Kong Epidemics course](https://www.ed
 </p>
 
 
-##Heterogeneities in host behavior
+## Heterogeneities in host behavior
 In this video from the [University of Hong Kong Epidemics course](https://www.edx.org/course/epidemics-hkux-hku01x-0), [Marc Lipsitch](https://www.hsph.harvard.edu/marc-lipsitch/) explains - using sexually transmitted infections as an example - how heterogeneities in contact behavior affects the observed ID dynamics. 
 
 <p>
@@ -48,7 +48,7 @@ In this video from the [University of Hong Kong Epidemics course](https://www.ed
 </p>
 
 
-##Superspreaders
+## Superspreaders
 In this video from the [Epidemics MOOC](https://www.coursera.org/learn/epidemics), [Peter Hudson](https://www.huck.psu.edu/people/peter-hudson) discusses the concept of superspreaders.
 
 <p>
