@@ -94,12 +94,12 @@ navbar:
               href: ./Environmental_Transmission_Assessments.html
         - text: "9. Vector-borne infectious diseases"
           menu:
-            - text: "9a. Vector-borne ID"
-              href: ./Vector_Transmission.html
+            - text: "9a. Vectorborne Transmission"
+              href: ./Vectorborne_Transmission.html
             - text: "9b. Exercises"
-              href: ./Vector_Transmission_Exercises.html
+              href: ./Vectorborne_Transmission_Exercises.html
             - text: "9c. Assessments"
-              href: ./Vector_Transmission_Assessments.html
+              href: ./Vectorborne_Transmission_Assessments.html
         - text: "10. Host heterogeneity"
           menu:
             - text: "10a. Host heterogeneity"
