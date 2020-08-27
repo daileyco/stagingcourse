@@ -124,14 +124,14 @@ navbar:
               href: ./Stochasticity_and_Extinctions_Exercises.html
             - text: "12c. Assessments"
               href: ./Stochasticity_and_Extinctions_Assessments.html
-        - text: "13. Emerging Infectious Diseases"
+        - text: "13. Evolutionary Dynamics"
           menu:
-            - text: "13a. Emerging Infectious Diseases"
-              href: ./Emerging_Infectious_Diseases.html
+            - text: "13a. Evolutionary Dynamics"
+              href: ./Evolutionary_Dynamics.html
             - text: "13b. Exercises"
-              href: ./Emerging_Infectious_Diseases_Exercises.html
+              href: ./Evolutionary_Dynamics_Exercises.html
             - text: "13c. Assessments"
-              href: ./Emerging_Infectious_Diseases_Assessments.html
+              href: ./Evolutionary_Dynamics_Assessments.html
     - text: "Project"
       menu:
          - text: "Project information"

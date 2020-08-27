@@ -1,5 +1,5 @@
 ---
-title: Infectious Disease Control 1 - Exercises 
+title: Infectious Disease Control 2 - Exercises 
 author: Andreas Handel
 date: "`r as.Date(file.mtime(knitr::current_input()))`"
 output: 
@@ -17,7 +17,7 @@ library(emo)
 
 # Hands-on computer exercise
 
-For this module, work through **two** DSAIDE apps, namely _Basics of ID Control_ and _ID control for multiple outbreaks_. Fill and submit the corresponding quiz sheets.
+For this module, work through **two** DSAIDE apps, namely _ID Control of different populations_ and _Complex ID control scenarios_. Fill and submit the corresponding quiz sheets.
 
 
 # Topic discussion 
