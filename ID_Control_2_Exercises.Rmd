@@ -22,7 +22,7 @@ For this module, work through **two** DSAIDE apps, namely _ID Control of differe
 
 # Topic discussion 
 
-Read the article “Towards the endgame and beyond: complexities and challenges for the elimination of infectious diseases” by Klepac et al. (2013) which you can get [here](.media/klepac13ptrsb.pdf). 
+Read the article “Towards the endgame and beyond: complexities and challenges for the elimination of infectious diseases” by Klepac et al. (2013) which you can get [here](./media/klepac13ptrsb.pdf). 
 
 Choose some ID - either one listed in box 1 of the paper or a different one - and discuss the current plans for elimination/eradication. What features of the ID will likely be helpful or unhelpful with regard to eradication/elimination? Reference the different areas the paper discusses. What is your overall assessment of feasibility?
 

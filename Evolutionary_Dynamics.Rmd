@@ -45,22 +45,13 @@ As part of the [Epidemics MOOC](https://www.coursera.org/learn/epidemics), [Andr
 
 
 ## Evolution of drug resistance
-A video explaining evolution of drug resistance
 
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/znnp-Ivj2ek" frameborder="0" allowfullscreen></iframe>
-</p>
-
-This is part of a full [TEDEd lesson](http://ed.ted.com/lessons/how-antibiotics-become-resistant-over-time-kevin-wu).
-
-
-The following video shows evolution in action in a very clever experimental system 
+The following video shows drug resistance evolution in action in a very clever experimental system. More details on the experiment can be found [in this article published in Science](http://science.sciencemag.org/content/353/6304/1147).
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yybsSqcB7mE" frameborder="0" allowfullscreen></iframe>
 </p>
 
-More details on the experiment can be found [in this article published in Science](http://science.sciencemag.org/content/353/6304/1147).
 
 
 In this video, [Andrew Read](http://www.thereadgroup.net/) provides a more detailed discussion how drug treatment and evolution interact to lead to resistance, and what we can do to minimize the problem  
@@ -69,21 +60,26 @@ In this video, [Andrew Read](http://www.thereadgroup.net/) provides a more detai
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cGsMCwajs7I" frameborder="0" allowfullscreen></iframe>
 </p>
 
+This short video, which is part of a [TEDEd lesson](http://ed.ted.com/lessons/how-antibiotics-become-resistant-over-time-kevin-wu), discusses evolution of drug resistance in a very easy to understand way.
+**This video is optional.**
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/znnp-Ivj2ek" frameborder="0" allowfullscreen></iframe>
+</p>
+
 
 ## Evolution of Virulence
-
-**These videos are optional**
 
 In this video from the  [University of Hong Kong Epidemics course](https://www.edx.org/course/epidemics-hkux-hku01x-0), [Marc Lipsitch](https://www.hsph.harvard.edu/marc-lipsitch/) discusses the evolution of pathogens with a special focus on the evolution of virulence. 
 
 <p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ERazkajbeWg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ERazkajbeWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-This video by [Nicole Mideo](http://mideo.eeb.utoronto.ca/) and colleagues provides another explanation of evolution of pathogen virulence.
+In this video, which is part of a [TEDEd lesson](http://ed.ted.com/lessons/how-do-germs-spread-and-why-do-they-make-us-sick-yannay-khaikin-and-nicole-mideo), [Nicole Mideo](http://mideo.eeb.utoronto.ca/) and colleagues provide an explanation of evolution of pathogen virulence.
+**This video is optional.**
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yxonJTWhBJQ" frameborder="0" allowfullscreen></iframe>
 </p>
 
-This is part of a full [TEDEd lesson](http://ed.ted.com/lessons/how-do-germs-spread-and-why-do-they-make-us-sick-yannay-khaikin-and-nicole-mideo).
