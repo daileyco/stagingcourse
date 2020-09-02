@@ -56,6 +56,8 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Patterns of ID DSAIDE Quiz](./quizsheets/dsaide_idpatterns.xlsx)
 * [Theory Quiz](./quizsheets/theory_idpatterns.xlsx)
 
+<!-- comment out quizzes that are not ready yet
+
 ## Module 4 - Reproductive Number 1
 * [Reproductive number 1 DSAIDE Quiz](./quizsheets/dsaide_reproductivenumber1.xlsx)
 * [Theory Quiz](./quizsheets/theory_reproductivenumber1.xlsx)
@@ -99,10 +101,11 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Evolution of Drug Resistance DSAIDE Quiz](./quizsheets/dsaide_evolutionarydynamics.xlsx)
 * [Theory Quiz](./quizsheets/theory_evolution.xlsx)
 
+-->
 
 _Further quizzes will show up here as the course progresses._
 
 # Exercise solutions
 
-After the due date for each quiz, I will place solution files to the DSAIDE exercises [in this Dropbox folder](https://www.dropbox.com/sh/ud2n0crtao2rmlg/AABQ7MRiEyIap308GoHEYggSa?dl=0). They are fairly detailed and also show you how you can use `R` commands (instead of the graphical interface) to do all the Tasks. I highly recommend looking at them (even if you get all answers correct).
+After the due date for each quiz, I will place solution files to the DSAIDE exercises in a Dropbox folder. They are fairly detailed and also show you how you can use `R` commands (instead of the graphical interface) to do all the Tasks. I highly recommend looking at them (even if you get all answers correct). The link to the dropbox folder is pinned in the _Announcement_ channel on Slack.
 
