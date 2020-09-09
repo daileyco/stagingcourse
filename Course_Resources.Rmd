@@ -56,7 +56,6 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Patterns of ID DSAIDE Quiz](./quizsheets/dsaide_idpatterns.xlsx)
 * [Theory Quiz](./quizsheets/theory_idpatterns.xlsx)
 
-<!-- comment out quizzes that are not ready yet
 
 ## Module 4 - Reproductive Number 1
 * [Reproductive number 1 DSAIDE Quiz](./quizsheets/dsaide_reproductivenumber1.xlsx)
@@ -100,6 +99,8 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 ## Module 13 - Evolutionary Dynamics
 * [Evolution of Drug Resistance DSAIDE Quiz](./quizsheets/dsaide_evolutionarydynamics.xlsx)
 * [Theory Quiz](./quizsheets/theory_evolution.xlsx)
+
+<!-- comment out quizzes that are not ready yet
 
 -->
 
