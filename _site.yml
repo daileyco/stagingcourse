@@ -94,7 +94,7 @@ navbar:
               href: ./Environmental_Transmission_Assessments.html
         - text: "9. Vector-borne infectious diseases"
           menu:
-            - text: "9a. Vectorborne Transmission"
+            - text: "9a. Vector-borne Transmission"
               href: ./Vectorborne_Transmission.html
             - text: "9b. Exercises"
               href: ./Vectorborne_Transmission_Exercises.html
