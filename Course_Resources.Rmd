@@ -94,7 +94,7 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 ## Module 12 - Stochasticity
 * [Stochastic SIR Model DSAIDE Quiz](./quizsheets/dsaide_stochasticsir.xlsx)
 * [Stochastic SEIR Model DSAIDE Quiz](./quizsheets/dsaide_stochasticseir.xlsx)
-* [Theory Quiz](./quizsheets/theory_evolution.xlsx)
+* [Theory Quiz](./quizsheets/theory_stochasticity.xlsx)
 
 ## Module 13 - Evolutionary Dynamics
 * [Evolution of Drug Resistance DSAIDE Quiz](./quizsheets/dsaide_evolutionarydynamics.xlsx)
